@@ -10,3 +10,5 @@ read porta
 echo A executar scan de hosts na rede $rede com a porta $porta ...
 
 nmap -sS -vv -p $porta $rede | grep "Discovered open port" | awk '{print 6}'
+
+# em desenvolvimento
