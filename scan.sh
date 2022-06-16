@@ -2,6 +2,7 @@
 #!/bin/bash
 # Script para procurar portas abertas na rede.
 clear
+
 echo -n "rede?"
 read rede
 echo -n "porta?"
